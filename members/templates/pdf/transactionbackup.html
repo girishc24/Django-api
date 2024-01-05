@@ -1,0 +1,294 @@
+<html lang="en">
+    <head>
+        <title>Bildify</title>
+        <meta charset="utf-8">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
+       <link href="https://fonts.googleapis.com/css2?family=Rupee&display=swap" rel="stylesheet">
+        <style> body {padding:0; font-family: 'Poppins', 'Rupee', sans-serif; font-size:14px; font-weight:300;}
+        table tr:nth-of-type(even) {background-color:#eaeaea;}
+         tr:first-of-type {color: #eaeaea;}
+        div.header {
+    display: block; text-align: center; 
+    position: running(header);
+}
+
+</style>
+<style>
+    
+     @page {
+      margin: 0mm;
+      
+      counter-increment: page;
+    } 
+	  
+    .footer {
+      background-color: #92278F;
+      color: #fff;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 15mm;
+      margin-top: 0mm;
+      width: 100%;
+      box-sizing: border-box;
+       z-index: 999;
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .footer-button {
+      background-color: #fff;
+      border: none;
+      color: #92278F;
+      padding: 3px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      border-radius: 10px;
+    }
+
+    .header {
+      width: 100%;
+      background-color: #92278F;
+      color: #ddd;
+      font-size: 12px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding: 10px;
+    }
+		 .logo {
+      width: 50%;
+    }
+    
+    .content {
+     
+   flex: 1;
+    padding-bottom: 60px; 
+    	
+   margin-bottom: 10px;
+   position: relative;   
+   top: 90px;
+        left: 0;
+        right: 0;
+        bottom: 30px;
+        overflow: auto;
+        
+    }
+   
+   tr {
+    page-break-inside: avoid;
+  }
+   tr {
+        display: table-row;
+    }
+    
+    @media all {
+            .page-break { display: none; }
+        }
+        @media print {
+            .page-break { display: block; page-break-before: always; }
+        }
+  
+
+  </style>
+  
+        </head>
+    <body>
+<table class="header" cellpadding="10" cellspacing="0" border="0" style="width:100%; margin:0; background-color:#92278F">
+<tr><td align="left"><span style="color:#ddd; font-size:12px">Transaction Report</span><br>
+<b style="color:#fff">Rsquire Lifestyle Developers</b></td><td align="right">
+<img src="https://bildify.in/assets/logo/logo_white.svg" class="logo" style="float: right; margin-right: 20px; position:relative;  overflow: hidden;">
+</td></tr></table>
+
+
+<div class="content"> 
+        <table style="border: 0px solid #5c743d;background-color:#fff; border-collapse: collapse; margin: 0;box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);width: 100%;border-spacing: 0; text-align:left; vertical-align:top;color:#000;">
+            <tbody>
+                <tr>
+                    <td style="background-color:#fff; width: 50%; padding:10px 0px 10px 20px;vertical-align: top; font-size:14px;"> 
+                    <p  style="padding:0px 0px 10px 0px;color:#000;font-size:18px;"><b>Total Balance</b><br><span style="font-size:18px;color:green; "><b>5900.00</b></span></p>
+                    </td>
+                    <td style="background-color:#fff; width: 50%; padding:10px 10px 10px 0px;vertical-align: top; text-align:right;font-size:16px;">
+                    <div  style="padding:0px 10px 10px 0px;color:#000;">Received : <span style="color:green"><b>40000.00</b></span></div>
+                    <div  style="padding:0px 10px 10px 0px;color:#000;">Paid : <span style="color:red"><b>10000.00</b></span></div>
+                    </td>
+                 </tr>  
+            </tbody>
+        </table>
+        <br><br>
+        <table cellpadding="10" cellspacing="0" border="0" width="100%" style="border: 1px solid #000;border-spacing: 0; margin: auto; font-size: 12px;">
+            <tr style="background-color: #000;color: #eaeaea;">
+                <th style="padding: 10px; font-weight: bold;">Date</th>
+                <th align="left" style="padding: 10px; font-weight: bold;">Description</th>
+                <th style="padding: 10px; padding: 10px; font-weight: bold;">Paid</th>
+                <th style="padding: 10px; padding: 10px; font-weight: bold;">Received</th>
+            </tr>
+            <tr style="line-height: 40px;">
+                <td align="center">01 May 23</td>
+                <td>You to New client (Invoice)</td>
+                <td align="center" style="color: red;"> &#8377;5052.0</td>
+                <td align="center" style="color: 0.0;"> &#8377;5052.0</td>
+            </tr>
+            <tr style="line-height: 40px;">
+                <td align="center">02 May 23</td>
+                <td>New client to You (Payment In)</td>
+                <td align="center" style="color: green;"> &#8377;0.0</td>
+                <td align="center" style="color: 5052.0;"> &#8377;0.0</td>
+            </tr>
+            <tr style="line-height: 40px;">
+                <td align="center">03 May 23</td>
+                <td>You to My got one (Payment Out)</td>
+                <td align="center" style="color: red;"> &#8377;100.0</td>
+                <td align="center" style="color: 0.0;"> &#8377;100.0</td>
+            </tr>
+            <tr style="line-height: 40px;">
+                <td align="center">04 May 23</td>
+                <td>My got one to You (Expense bill)</td>
+                <td align="center" style="color: green;"> &#8377;0.0</td>
+                <td align="center" style="color: 100.0;"> &#8377;0.0</td>
+            </tr>
+            <tr style="line-height: 40px;">
+                <td align="center">05 May 23</td>
+                <td>You to New client (Invoice)</td>
+                <td align="center" style="color: red;"> &#8377;5052.0</td>
+                <td align="center" style="color: 0.0;"> &#8377;5052.0</td>
+            </tr>
+            <tr style="line-height: 40px;">
+                <td align="center">06 May 23</td>
+                <td>New client to You (Payment In)</td>
+                <td align="center" style="color: green;"> &#8377;0.0</td>
+                <td align="center" style="color: 5052.0;"> &#8377;0.0</td>
+            </tr>
+            <tr style="line-height: 40px;">
+                <td align="center">07 May 23</td>
+                <td>You to My got one (Payment Out)</td>
+                <td align="center" style="color: red;"> &#8377;100.0</td>
+                <td align="center" style="color: 0.0;"> &#8377;100.0</td>
+            </tr>
+            <tr style="line-height: 40px;">
+                <td align="center">08 May 23</td>
+                <td>My got one to You (Expense bill)</td>
+                <td align="center" style="color: green;"> &#8377;0.0</td>
+                <td align="center" style="color: 100.0;"> &#8377;0.0</td>
+            </tr>
+            <tr style="line-height: 40px;">
+                <td align="center">09 May 23</td>
+                <td>You to New client (Invoice)</td>
+                <td align="center" style="color: red;"> &#8377;5052.0</td>
+                <td align="center" style="color: 0.0;"> &#8377;5052.0</td>
+            </tr>
+            <tr style="line-height: 40px;">
+                <td align="center">10 May 23</td>
+                <td>New client to You (Payment In)</td>
+                <td align="center" style="color: green;"> &#8377;0.0</td>
+                <td align="center" style="color: 5052.0;"> &#8377;0.0</td>
+            </tr>
+            <tr style="line-height: 40px;">
+                <td align="center">11 May 23</td>
+                <td>You to My got one (Payment Out)</td>
+                <td align="center" style="color: red;"> &#8377;100.0</td>
+                <td align="center" style="color: 0.0;"> &#8377;100.0</td>
+            </tr>
+            <tr style="line-height: 40px;">
+                <td align="center">12 May 23</td>
+                <td>My got one to You (Expense bill)</td>
+                <td align="center" style="color: green;"> &#8377;0.0</td>
+                <td align="center" style="color: 100.0;"> &#8377;0.0</td>
+            </tr>
+            <tr style="line-height: 40px;">
+                <td align="center">13 May 23</td>
+                <td>My got one to You (Expense bill)</td>
+                <td align="center" style="color: green;"> &#8377;0.0</td>
+                <td align="center" style="color: 2500.0;"> &#8377;0.0</td>
+            </tr>
+            <tr style="line-height: 40px;">
+                <td align="center">14 May 23</td>
+                <td>You to My got one (Payment Out)</td>
+                <td align="center" style="color: red;"> &#8377;2500.0</td>
+                <td align="center" style="color: 0.0;"> &#8377;2500.0</td>
+            </tr>
+            <tr style="line-height: 40px;">
+                <td align="center">15 May 23</td>
+                <td>You to New client (Invoice)</td>
+                <td align="center" style="color: red;"> &#8377;310.0</td>
+                <td align="center" style="color: 0.0;"> &#8377;310.0</td>
+            </tr>
+            <tr style="line-height: 40px;">
+                <td align="center">16 May 23</td>
+                <td>New client to You (Payment In)</td>
+                <td align="center" style="color: green;"> &#8377;0.0</td>
+                <td align="center" style="color: 310.0;"> &#8377;0.0</td>
+            </tr>
+            <tr style="line-height: 40px;">
+                <td align="center">17 May 23</td>
+                <td>You to New client (Invoice)</td>
+                <td align="center" style="color: red;"> &#8377;10000.0</td>
+                <td align="center" style="color: 0.0;"> &#8377;10000.0</td>
+            </tr>
+            <tr style="line-height: 40px;">
+                <td align="center">18 May 23</td>
+                <td>New client to You (Payment In)</td>
+                <td align="center" style="color: green;"> &#8377;0.0</td>
+                <td align="center" style="color: 10000.0;"> &#8377;0.0</td>
+            </tr>
+            <tr style="line-height: 40px;">
+                <td align="center">19 May 23</td>
+                <td>You to Ransuve kokk (Payment Out)</td>
+                <td align="center" style="color: red;"> &#8377;200.0</td>
+                <td align="center" style="color: 0.0;"> &#8377;200.0</td>
+            </tr>
+            <tr style="line-height: 40px;">
+                <td align="center">20 May 23</td>
+                <td>You to jins antony (For site expense)</td>
+                <td align="center" style="color: purple;"> &#8377;100.0</td>
+                <td align="center" style="color: 0.0;"> &#8377;100.0</td>
+            </tr>
+            <tr style="line-height: 40px;">
+                <td align="center">21 Apr 23</td>
+                <td>Ransuve kokk to You (Daily labour)</td>
+                <td align="center" style="color: green;"> &#8377;0.0</td>
+                <td align="center" style="color: 200.0;"> &#8377;0.0</td>
+            </tr>
+            <tr style="line-height: 40px;">
+                <td align="center">22 Apr 23</td>
+                <td>You to Tesss aa (For site expense)</td>
+                <td align="center" style="color: purple;"> &#8377;100.0</td>
+                <td align="center" style="color: 0.0;"> &#8377;100.0</td>
+            </tr>
+        </table>
+        </div>
+        <br><br><small>Report generated at May 13, 2023 8:10 PM</small><br><br>
+
+
+       <!--  <table cellpadding="10" cellspacing="0" border="0" style="width:100%; margin:0; background-color:#92278F; color: #fff;"><tr><td align="left"><span style="color:#fff">Start Using Bildify</span> <button style="background-color: #fff; padding: 10px 20px; border:0; border-radius: 10px;">Install</button></td><td align="right"><span style="font-size:14px">&#9742; +91 - 999999999</span><br><span style="font-size:10px">Page 1/1</span></td></tr></table>
+ -->
+ <footer class="footer">
+    
+  <div style="display: flex; justify-content: space-between;">
+  <div class="footer-inner">
+    <div >
+      <p style="margin: 10px;">
+        <b >Start Using Bildify</b>
+        <a href="https://play.google.com/store/apps/details?id=in.bildify" class="footer-button" style="border-radius: 10px;" target="_blank">
+        <b>Install</b></a>
+      </p>
+    </div>
+    </div>
+    <div style="float: right; margin-right: 20px; overflow: hidden;">
+      <p><b style="color:#fff;">&#9742; +91 - 999999999 <br> <span style="font-size:10px" >Page</span></b></p>
+    </div>
+  </div>
+  
+</footer>   
+
+    </body>
+</html>

@@ -1,0 +1,9 @@
+<center>
+    <form method="POST" action="{%url 'CategorySave'%}">
+        {% csrf_token %}
+    <label>Category Name</label>
+    <input type="text" name="name" placeholder="Enter a Category Name"/> <br><br>
+    
+    <button type="Submit" name="action" value="Submit">Submit</button>
+</form>
+</center>

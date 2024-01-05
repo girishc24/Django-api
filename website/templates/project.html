@@ -1,0 +1,21 @@
+<center>
+    <form method="POST" >
+        {% csrf_token %}
+    <label>Project Title</label>
+    <input type="text" name="title" placeholder="Entera Project Title"/> <br><br>
+    <label>Description</label>
+    <input type="text" name="description" placeholder="Enter a Description"/> <br><br>
+    <label>City</label>
+    <input type="text" name="city" placeholder="Enter a City"/> <br><br>
+    <label>Address</label>
+    <textarea rows="1" placeholder="Enter a Address" name="address"></textarea> <br><br>
+    <label>Select Category</label>
+    <select name="category">
+        {% for item in data %}
+          <option value="{{ item.id }}">{{ item.name }}</option>
+        {% endfor %}
+      </select>
+    <br><br>
+    <button type="Submit" name="action" value="Submit">Submit</button>
+</form>
+</center>

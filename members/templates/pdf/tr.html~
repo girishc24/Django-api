@@ -1,0 +1,519 @@
+<html lang="en">
+    <head>
+        <title>Bildify</title>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+        <style> body {padding:0; font-family: 'Poppins', sans-serif; font-size:14px; font-weight:300;}table tr:nth-of-type(even) {background-color:#eaeaea;} tr:first-of-type {color: #eaeaea;}</style>
+        
+        <style>
+   @page {
+      margin-left: 0mm;
+     margin-right: 0mm;
+    }
+	  
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .footer-button {
+      background-color: #fff;
+      border: none;
+      color: #92278F;
+      padding: 3px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      border-radius: 10px;
+    }
+    
+    .footer {
+      width: 100%;
+      background-color: #92278F;
+      color: #fff;
+      position: fixed;
+      bottom: -75px;
+      left: 0;
+      right: 0;
+      height: 15mm;
+      margin-top: 0mm;
+      box-sizing: border-box;
+       z-index: 999;
+       
+    }
+
+    .header {
+      width: 100%;
+      background-color: #92278F;
+      margin-bottom: 30px;
+      color: #ddd;
+      font-size: 12px;
+      position: fixed;
+      top: -80px;
+      left: 0;
+      bottom: 10px;
+      padding: 8px;
+      
+    }
+    
+    
+     @page {
+    @bottom-left {
+      content: counter(page) ' / ' counter(pages);
+      margin-left: 96%;
+      margin-bottom: -5%;
+      color: #fff;
+      font-size:10px;
+      
+    }
+  }
+   
+  </style>
+    </head>
+    <body style="padding: 0;">
+         <table class="header" cellpadding="10" cellspacing="0" border="0" style="width:100%; margin:0; background-color:#92278F">
+        <tr><td align="left"><span style="color:#ddd; font-size:12px">Business Report Summary</span><br>
+        <b style="color:#fff">Rsquire Lifestyle Developers</b></td>
+        <td align="right"><img src="https://bildify.in/assets/logo/logo_white.svg" style="width: 50%;"></td></tr></table>
+        <br>
+        <table style="border: 0px solid #5c743d;background-color:#fff; border-collapse: collapse; margin: 0;box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);width: 100%;border-spacing: 0; text-align:left; vertical-align:top;">
+            <tbody>
+                <tr style="background-color:#92278F;color: #fff; ">
+                    <th style="padding:10px 20px">
+                        <p><b style="color:#fff">Rsquire Lifestyle Developers</b></p>
+                    </th>
+                    <th style="text-align:right;padding:0px 20px 0px 0px">
+                        <span style="color:#fff">+91-9999999999</span>
+                    </th>
+                </tr>
+                <tr>
+                    <td style="background-color:#fff; width: 50%; padding:10px 0px 10px 20px;vertical-align: top; font-size:14px;">
+                        <p  style="padding:0px 0px 10px 0px;">Total Balance<span style="font-size:18px;color:green"><b> : 5900.00</b></span></p>
+                        <p  style="padding:0px 0px 10px 0px;"> <b>-</b> Company Account <span style="color:#92278F;">: 5000.00</span></p>
+                        <p  style="padding:0px 0px 10px 0px;"> <b>-</b> With Staff <span style="color:#92278F;">: 900.00</span></p>
+                        <p  style="padding:0px 0px 10px 0px;"> <b>-</b> Deposit with Others <span style="color:#92278F;">: 0.00</span></p>
+                    </td>
+                    <td style="background-color:#fff; width: 50%; padding:10px 10px 10px 0px;vertical-align: top; text-align:right;font-size:16px;">
+                        <p  style="padding:0px 10px 10px 0px;">Total Recevable<br><span style="color:green"><b>40000.00</b></span></p>
+                        <p  style="padding:0px 10px 10px 0px;">Total Payable<br><span style="color:red"><b>10000.00</b></span></p>
+                    </td>
+                </tr>
+            <tbody>
+            </tbody>
+        </table>
+        <div style="width:100%;">
+            <h4>Running Projects (5)</h4>
+        </div>
+        <div style="width:99%; border:3px solid #ff393980;">
+            <table style="border: 0px solid #5c743d; border-collapse: collapse; margin: 0;box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);width: 100%;border-spacing: 0; text-align:left; vertical-align:top;">
+                <tbody style="line-height: 24px; color:#000;font-size:14px; font-weight:500;">
+                    <tr style="background-color:#fff;">
+                        <td style="width: 33.3333333333%; padding: 20px; position:relative;">
+                            <h3 style="color:#000;">Vinodhini Site<br><span style="font-size:12px; color:#aaa;">Kaloor, Ernakulam</span></h3>
+                            <img src="https://bildify.in/assets/logo/delayed.png" style="float: left; position: absolute; top:-15px; left:-3px">
+                        </td>
+                        <td align="center" style="width: 33.3333333333%; padding: 20px; color: #000; font-weight:normal;">
+                            <p>Estimate <b style="color:green">: 65000.00</b> &nbsp; <span style="color:#aaa">|</span> &nbsp; Budget <b style="color:orange">: 50000.00</b></p>
+                            <p style="font-size:18px">Balance <b style="color:green">: 15000.00</b></p>
+                        </td>
+                        <td style="width:33.3333333333%; color:#000; padding: 20px;" align="right">
+                            <p> 
+                                <span style="font-weight:normal;display:block">Start <b>: 02-03-2023</b></span> 
+                                <span style="font-weight:normal;display:block">End <b>: 03-03-2023</b></span> 
+                            </p>
+                        </td>
+                    </tr>
+                    <tr style="background-color:#fff;">
+                        <td colspan="3">
+                            <hr style="margin: 10px; color:#eee">
+                        </td>
+                    </tr>
+                    <tr style="background-color:#fff;">
+                        <td style="width: 33.3333333333%; padding: 20px;" align="center">
+                            <h3 style="color:#000; font-weight: normal">Total Payables<br><font color="red">25000.00</font></h3>
+                            <p>Today's Expense : <font color="red">5000.00</font></p>
+                        </td>
+                        <td align="center" style="width: 33.3333333333%;">
+                            <h3 style="color:#000; font-weight: normal">Total Receivables<br><font color="green">55000.00</font></h3>
+                            <p>Today's Received : <font color="green">10000.00</font></p>
+                        </td>
+                        <td style="width:33.3333333333%;" align="center">
+                            <h3 style="color:#000; font-weight: normal;">Remaining Budget<br><font color="orange">30000.00</font></h3>
+                            <p>Total Expense : <font color="orange">5000.00</font></p>
+                        </td>
+                    </tr>
+                    <tr style="background-color:#fff;">
+                        <td colspan="3">
+                            <hr style="margin: 10px; color:#eee">
+                        </td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #dddddd; background-color:#fff;" >
+                        <td style="width:100%; padding: 10px 20px;" colspan="4">
+                            <p style="display:inline-block; color:#92278F; width:25%;text-align: center;">Total Tasks<br><span style="color:#000;  font-size: 18px;">5</span></p>
+                            <p style="display:inline-block; color:green; width:25%;text-align: center">Completed<br><span style="color:#000;  font-size: 18px;">6</span></p>
+                            <p style="display:inline-block; color:orange; width:25%;text-align: center">On track<br><span style="color:#000; font-size: 18px;">4</span></p>
+                            <p style="display:inline-block;color:red; width:22%;text-align: center">Delayed<br><span style="color:#000; font-size: 18px;">1</span></p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table style="border: 0px solid #5c743d;width: 100%;border-spacing: 0; width:100%">
+                <tbody style="line-height: 20px; font-size:13px;">
+                    <tr style="background-color:Gray;color: #fff; text-align: left;">
+                        <td style="width: 20%;padding:5px 20px; font-size">
+                            Task Name
+                        </td>
+                        <td style="width: 35%;text-align:left;padding:5px 20px">
+                            Description
+                        </td>
+                        <td style="width: 35%;text-align:left;padding:5px 20px">
+                            Comments
+                        </td>
+                        <td style="width: 10%;text-align:center;padding:5px 20px">
+                            Photos
+                        </td>
+                    </tr>
+                    <tr style="background-color:#fff;color: #000; text-align: left;">
+                        <td style="width: 20%;"><b style="color:#000;font-size:12px; font-weight: normal; padding: 5px 20px;">Painting</b> <span style="display:inline-block;width:30px; height:30px; border:1px solid #04AA6D; border-radius:50%;font-size: 10px;color: #04AA6D; line-height:30px; text-align:center;"> 90%
+                            </span>
+                        </td>
+                        <td style="width: 35%"><b style="color:#000;font-size:12px; font-weight: normal; padding: 5px 20px;">Description</b></td>
+                        <td style="width: 35%">
+                            <b style="color:#000;font-size:12px; font-weight: normal; padding: 5px 0px;">Carpenter work going on. 2 more days work remaining. Spent 1000 to purchase materials for site</b> <i style="font-weight:bold;"> By Jins</i><br><span style="float:right">21-05-2023 19.00</span><br>
+                            <hr>
+                            <b style="color:#000;font-size:12px; font-weight: normal; padding: 5px 0px;">Painting work going on. Will be completed tomorrow</b> <i style="font-weight:bold"> By Bibeesh</i><br><span style="float:right">21-05-2023 19.00</span>
+                        </td>
+                        <td style="width: 10%; text-align: center;"><b style="color:#000;font-size:12px; font-weight: normal; padding: 5px 20px;"> 2 </b></td>
+                    </tr>
+                    <tr style="background-color:#eee;color: #000; text-align: left;">
+                        <td style="width: 20%;"><b style="color:#000;font-size:12px; font-weight: normal; padding: 5px 20px;">Cleaning</b> <span style="display:inline-block;width:30px; height:30px; border:1px solid red; border-radius:50%;font-size: 10px;color: red; line-height:30px; text-align:center;"> 30%
+                            </span>
+                        </td>
+                        <td style="width: 35%"><b style="color:#000;font-size:12px; font-weight: normal; padding: 5px 20px;">Description </b></td>
+                        <td style="width: 35%">
+                            <b style="color:#000;font-size:12px; font-weight: normal; padding: 5px 0px;">Carpenter work going on. 2 more days work remaining. Spent 1000 to purchase materials for site</b> <i style="font-weight:bold;"> By Jins</i><br><span style="float:right">21-05-2023 19.00</span><br>
+                            <hr>
+                            <b style="color:#000;font-size:12px; font-weight: normal; padding: 5px 0px;">Painting work going on. Will be completed tomorrow By Bibeesh</b> <i style="font-weight:bold;"> By Jins</i><br><span style="float:right">21-05-2023 19.00</span>
+                        </td>
+                        <td style="width: 10%; text-align: center;"><b style="color:#000;font-size:12px; font-weight: normal; padding: 5px 20px;"> 2 </b></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table style="border: 0px solid #5c743d; border-collapse: collapse; margin: 0;box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);width: 100%;border-spacing: 0; text-align:left; vertical-align:top;">
+                <tbody style="line-height: 24px;">
+                    <tr style="background-color:Gray;color: #fff; text-align: left; font-size:13px;">
+                        <td style="width: 55%;padding:5px 20px">
+                            Staff Activity
+                        </td>
+                        <td style="width: 15%;text-align:left;padding:5px 20px">
+                            Expenses
+                        </td>
+                        <td style="width: 10%;text-align:left;padding:5px 20px">
+                            Tasks
+                        </td>
+                        <td style="width: 10%;text-align:left;padding:5px 20px">
+                            Completed
+                        </td>
+                        <td style="width: 10%;text-align:left;padding:5px 20px">
+                            Remaining
+                        </td>
+                    </tr>
+                    <tr style="background-color:#fff;color: #000; text-align: left; border-bottom: 1px solid #dddddd;">
+                        <td style="width: 55%;">
+                            <p style="color:#000;font-size:12px; padding: 5px 20px;">Jins </p>
+                        </td>
+                        <td style="width: 15%">
+                            <p style="color:#000;font-size:12px; padding: 5px 20px;">300 </p>
+                        </td>
+                        <td style="width: 10%">
+                            <p style="color:#000;font-size:12px; padding: 5px 20px;"> 9 </p>
+                        </td>
+                        <td style="width: 10%">
+                            <p style="color:#000;font-size:12px; padding: 5px 20px;"> 4 </p>
+                        </td>
+                        <td style="width: 10%">
+                            <p style="color:#000;font-size:12px; padding: 5px 20px;">5</p>
+                        </td>
+                    </tr>
+                    <tr style="background-color:#eee;color: #000; text-align: left; border-bottom: 1px solid #dddddd;">
+                        <td style="width: 55%;">
+                            <p style="color:#000;font-size:12px; padding: 5px 20px;">Bibeesh</p>
+                        </td>
+                        <td style="width: 15%">
+                            <p style="color:#000;font-size:12px; padding: 5px 20px;">2000</p>
+                        </td>
+                        <td style="width: 10%">
+                            <p style="color:#000;font-size:12px; padding: 5px 20px;">5</p>
+                        </td>
+                        <td style="width: 10%">
+                            <p style="color:#000;font-size:12px; padding: 5px 20px;">3</p>
+                        </td>
+                        <td style="width: 10%">
+                            <p style="color:#000;font-size:12px; padding: 5px 20px;">2</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table style="border: 0px solid #5c743d;width: 100%;border-spacing: 0; width:100%">
+                <tbody style="line-height: 20px; font-size:13px;">
+                    <tr style="background-color:Gray;color: #fff; text-align: left;">
+                        <td style="width: 25%;padding:5px 20px">
+                            Vendors
+                        </td>
+                        <td style="width: 25%;text-align:left;padding:5px 20px">
+                            Paid
+                        </td>
+                        <td style="width: 25%;text-align:left;padding:5px 20px">
+                            Received
+                        </td>
+                        <td style="width: 25%;text-align:left;padding:5px 20px">
+                            Date
+                        </td>
+                    </tr>
+                    <tr style="background-color:#fff;color: #000; text-align: left;">
+                        <td style="width: 25%;padding:5px 20px; font-size:12px">
+                            Kiran Reddy
+                        </td>
+                        <td style="width: 25%;text-align:left;padding:5px 20px; font-size: 12px;color: red;">
+                            5000
+                        </td>
+                        <td style="width: 25%;text-align:left;padding:5px 20px; font-size: 12px; color: green;">
+                            0
+                        </td>
+                        <td style="width: 25%;text-align:left;padding:5px 20px; font-size: 12px;">
+                            16-05-2023
+                        </td>
+                    </tr>
+                    <tr style="background-color:#eee;color: #000; text-align: left;">
+                        <td style="width: 25%;padding:5px 20px; font-size: 12px;">
+                            Krisha Kumar
+                        </td>
+                        <td style="width: 25%;text-align:left;padding:5px 20px; font-size: 12px;color: red;">
+                            3000
+                        </td>
+                        <td style="width: 25%;text-align:left;padding:5px 20px; font-size: 12px;color: green;">
+                            0
+                        </td>
+                        <td style="width: 25%;text-align:left;padding:5px 20px; font-size: 12px;">
+                            12-05-2023
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <br>
+        <div style="width:99%; border:3px solid green">
+            <table style="border: 0px solid #5c743d; border-collapse: collapse; margin: 0;box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);width: 100%;border-spacing: 0; text-align:left; vertical-align:top;">
+                <tbody style="line-height: 24px; color:#000;font-size:14px; font-weight:500;">
+                    <tr style="background-color:#fff;">
+                        <td style="width: 33.3333333333%; padding: 20px; position:relative;">
+                            <h3 style="color:#000;">Roy Site<br><span style="font-size:12px; color:#aaa;">Kodihalli, Bangalore</span></h3>
+                            <img src="https://bildify.in/assets/logo/ontrack.png" style="float: left; position: absolute; top:-15px; left:-3px">
+                        </td>
+                        <td align="center" style="width: 33.3333333333%; padding: 20px; color: #000; font-weight:normal;">
+                            <p>Estimate <b style="color:green">: 65000.00</b> &nbsp; <span style="color:#aaa">|</span> &nbsp; Budget <b style="color:orange">: 50000.00</b></p>
+                            <p style="font-size:18px">Balance <b style="color:green">: 15000.00</b></p>
+                        </td>
+                        <td style="width:33.3333333333%; color:#000; padding: 20px;" align="right">
+                            <p> 
+                                <span style="font-weight:normal;display:block">Start <b>: 02-03-2023</b></span> 
+                                <span style="font-weight:normal;display:block">End <b>: 03-03-2023</b></span> 
+                            </p>
+                        </td>
+                    </tr>
+                    <tr style="background-color:#fff;">
+                        <td colspan="3">
+                            <hr style="margin: 10px; color:#eee">
+                        </td>
+                    </tr>
+                    <tr style="background-color:#fff;">
+                        <td style="width: 33.3333333333%; padding: 20px;" align="center">
+                            <h3 style="color:#000; font-weight: normal">Total Payables<br><font color="red">25000.00</font></h3>
+                            <p>Today's Expense : <font color="red">5000.00</font></p>
+                        </td>
+                        <td align="center" style="width: 33.3333333333%;">
+                            <h3 style="color:#000; font-weight: normal">Total Receivables<br><font color="green">55000.00</font></h3>
+                            <p>Today's Received : <font color="green">10000.00</font></p>
+                        </td>
+                        <td style="width:33.3333333333%;" align="center">
+                            <h3 style="color:#000; font-weight: normal;">Remaining Budget<br><font color="orange">30000.00</font></h3>
+                            <p>Total Expense : <font color="orange">5000.00</font></p>
+                        </td>
+                    </tr>
+                    <tr style="background-color:#fff;">
+                        <td colspan="3">
+                            <hr style="margin: 10px; color:#eee">
+                        </td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #dddddd; background-color:#fff;" >
+                        <td style="width:100%; padding: 10px 20px;" colspan="4">
+                            <p style="display:inline-block; color:#92278F; width:25%;text-align: center;">Total Tasks<br><span style="color:#000;  font-size: 18px;">5</span></p>
+                            <p style="display:inline-block; color:green; width:25%;text-align: center">Completed<br><span style="color:#000;  font-size: 18px;">6</span></p>
+                            <p style="display:inline-block; color:orange; width:25%;text-align: center">On track<br><span style="color:#000; font-size: 18px;">4</span></p>
+                            <p style="display:inline-block;color:red; width:22%;text-align: center">Delayed<br><span style="color:#000; font-size: 18px;">1</span></p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table style="border: 0px solid #5c743d;width: 100%;border-spacing: 0; width:100%">
+                <tbody style="line-height: 20px; font-size:13px;">
+                    <tr style="background-color:Gray;color: #fff; text-align: left;">
+                        <td style="width: 25%;padding:5px 20px; font-size">
+                            Task Name
+                        </td>
+                        <td style="width: 40%;text-align:left;padding:5px 20px">
+                            Description
+                        </td>
+                        <td style="width: 25%;text-align:left;padding:5px 20px">
+                            Comments
+                        </td>
+                        <td style="width: 10%;text-align:left;padding:5px 20px">
+                            Photos
+                        </td>
+                    </tr>
+                    <tr style="background-color:#fff;color: #000; text-align: left;">
+                        <td style="width: 20%;"><b style="color:#000;font-size:12px; font-weight: normal; padding: 5px 20px;">Painting</b> <span style="display:inline-block;width:30px; height:30px; border:1px solid #04AA6D; border-radius:50%;font-size: 10px;color: #04AA6D; line-height:30px; text-align:center;"> 90%
+                            </span>
+                        </td>
+                        <td style="width: 35%"><b style="color:#000;font-size:12px; font-weight: normal; padding: 5px 20px;">Description</b></td>
+                        <td style="width: 35%">
+                            <b style="color:#000;font-size:12px; font-weight: normal; padding: 5px 0px;">Carpenter work going on. 2 more days work remaining. Spent 1000 to purchase materials for site</b> <i style="font-weight:bold;"> By Jins</i><br><span style="float:right">21-05-2023 19.00</span><br>
+                            <hr>
+                            <b style="color:#000;font-size:12px; font-weight: normal; padding: 5px 0px;">Painting work going on. Will be completed tomorrow</b> <i style="font-weight:bold"> By Bibeesh</i><br><span style="float:right">21-05-2023 19.00</span>
+                        </td>
+                        <td style="width: 10%; text-align: center;"><b style="color:#000;font-size:12px; font-weight: normal; padding: 5px 20px;"> 2 </b></td>
+                    </tr>
+                    <tr style="background-color:#eee;color: #000; text-align: left;">
+                        <td style="width: 20%;"><b style="color:#000;font-size:12px; font-weight: normal; padding: 5px 20px;">Cleaning</b> <span style="display:inline-block;width:30px; height:30px; border:1px solid red; border-radius:50%;font-size: 10px;color: red; line-height:30px; text-align:center;"> 30%
+                            </span>
+                        </td>
+                        <td style="width: 35%"><b style="color:#000;font-size:12px; font-weight: normal; padding: 5px 20px;">Description </b></td>
+                        <td style="width: 35%">
+                            <b style="color:#000;font-size:12px; font-weight: normal; padding: 5px 0px;">Carpenter work going on. 2 more days work remaining. Spent 1000 to purchase materials for site</b> <i style="font-weight:bold;"> By Jins</i><br><span style="float:right">21-05-2023 19.00</span><br>
+                            <hr>
+                            <b style="color:#000;font-size:12px; font-weight: normal; padding: 5px 0px;">Painting work going on. Will be completed tomorrow By Bibeesh</b> <i style="font-weight:bold;"> By Jins</i><br><span style="float:right">21-05-2023 19.00</span>
+                        </td>
+                        <td style="width: 10%; text-align: center;"><b style="color:#000;font-size:12px; font-weight: normal; padding: 5px 20px;"> 2 </b></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table style="border: 0px solid #5c743d; border-collapse: collapse; margin: 0;box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);width: 100%;border-spacing: 0; text-align:left; vertical-align:top;">
+                <tbody style="line-height: 24px;">
+                    <tr style="background-color:Gray;color: #fff; text-align: left; font-size:13px;">
+                        <td style="width: 55%;padding:5px 20px">
+                            Staff Activity
+                        </td>
+                        <td style="width: 15%;text-align:left;padding:5px 20px">
+                            Expenses
+                        </td>
+                        <td style="width: 10%;text-align:left;padding:5px 20px">
+                            Tasks
+                        </td>
+                        <td style="width: 10%;text-align:left;padding:5px 20px">
+                            Completed
+                        </td>
+                        <td style="width: 10%;text-align:left;padding:5px 20px">
+                            Remaining
+                        </td>
+                    </tr>
+                    <tr style="background-color:#fff;color: #000; text-align: left; border-bottom: 1px solid #dddddd;">
+                        <td style="width: 55%;">
+                            <p style="color:#000;font-size:12px; padding: 5px 20px;">Jins </p>
+                        </td>
+                        <td style="width: 15%">
+                            <p style="color:#000;font-size:12px; padding: 5px 20px;">300 </p>
+                        </td>
+                        <td style="width: 10%">
+                            <p style="color:#000;font-size:12px; padding: 5px 20px;"> 9 </p>
+                        </td>
+                        <td style="width: 10%">
+                            <p style="color:#000;font-size:12px; padding: 5px 20px;"> 4 </p>
+                        </td>
+                        <td style="width: 10%">
+                            <p style="color:#000;font-size:12px; padding: 5px 20px;">5</p>
+                        </td>
+                    </tr>
+                    <tr style="background-color:#eee;color: #000; text-align: left; border-bottom: 1px solid #dddddd;">
+                        <td style="width: 55%;">
+                            <p style="color:#000;font-size:12px; padding: 5px 20px;">Bibeesh</p>
+                        </td>
+                        <td style="width: 15%">
+                            <p style="color:#000;font-size:12px; padding: 5px 20px;">2000</p>
+                        </td>
+                        <td style="width: 10%">
+                            <p style="color:#000;font-size:12px; padding: 5px 20px;">5</p>
+                        </td>
+                        <td style="width: 10%">
+                            <p style="color:#000;font-size:12px; padding: 5px 20px;">3</p>
+                        </td>
+                        <td style="width: 10%">
+                            <p style="color:#000;font-size:12px; padding: 5px 20px;">2</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table style="border: 0px solid #5c743d;width: 100%;border-spacing: 0; width:100%">
+                <tbody style="line-height: 20px; font-size:13px;">
+                    <tr style="background-color:Gray;color: #fff; text-align: left;">
+                        <td style="width: 25%;padding:5px 20px">
+                            Vendors
+                        </td>
+                        <td style="width: 25%;text-align:left;padding:5px 20px">
+                            Paid
+                        </td>
+                        <td style="width: 25%;text-align:left;padding:5px 20px">
+                            Received
+                        </td>
+                        <td style="width: 25%;text-align:left;padding:5px 20px">
+                            Date
+                        </td>
+                    </tr>
+                    <tr style="background-color:#fff;color: #000; text-align: left;">
+                        <td style="width: 25%;padding:5px 20px; font-size:12px">
+                            Kiran Reddy
+                        </td>
+                        <td style="width: 25%;text-align:left;padding:5px 20px; font-size: 12px;color: red;">
+                            5000
+                        </td>
+                        <td style="width: 25%;text-align:left;padding:5px 20px; font-size: 12px; color: green;">
+                            0
+                        </td>
+                        <td style="width: 25%;text-align:left;padding:5px 20px; font-size: 12px;">
+                            16-05-2023
+                        </td>
+                    </tr>
+                    <tr style="background-color:#eee;color: #000; text-align: left;">
+                        <td style="width: 25%;padding:5px 20px; font-size: 12px;">
+                            Krisha Kumar
+                        </td>
+                        <td style="width: 25%;text-align:left;padding:5px 20px; font-size: 12px;color: red;">
+                            3000
+                        </td>
+                        <td style="width: 25%;text-align:left;padding:5px 20px; font-size: 12px;color: green;">
+                            0
+                        </td>
+                        <td style="width: 25%;text-align:left;padding:5px 20px; font-size: 12px;">
+                            12-05-2023
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </tbody></table>
+        
+        <table class="footer" cellpadding="10" cellspacing="0" border="0" style="width:100%; margin:0; background-color:#92278F; color: #fff;">
+        <tr><td align="left">
+        <span style="color:#fff">Start Using Bildify</span> 
+        <a href="https://play.google.com/store/apps/details?id=in.bildify" class="footer-button" style="border-radius: 10px;" target="_blank">
+        <b>Install</b></a>
+        </td>
+        <td align="right"><span style="font-size:14px; color: white;">&#9742; +91 - 999999999</span><br>
+        <span style="font-size:10px; color: white; position: relative; left: -23px;">Page </span></td>
+        </tr>
+        </table>
+    </body>
+</html>

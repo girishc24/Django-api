@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A4 Size Page with Double Border</title>
+  <style>
+  body {
+    margin: 0;
+    padding: 0;
+    margin-top: -37px;
+    box-sizing: border-box;
+    font-family: Nyala, sans-serif; 
+  }
+
+ 
+
+  .page {
+    margin: 1cm auto;
+    height: 29.3cm;
+    border: 4px double black;
+    box-sizing: border-box;
+    position: relative; 
+    margin-bottom: 5px;
+  }
+
+  .header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #971a31;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+
+  .footer {
+    font-size: 13px;
+    position: fixed;
+    bottom: 0;
+    left: 1cm;
+    right: 1cm;
+    text-align: center;
+    color: #971a31;
+  }
+
+  .watermark {
+    position: fixed;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.3; 
+    height: 50%;
+  }
+
+  .content-section {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .content {
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+
+  .list-group-item {
+    padding: 0.75rem -0.25rem;
+    border: none;
+  }
+
+  /* Make list items bold and use Nyala font */
+  .list-group-item ul li {
+    list-style-type: circle;
+    font-weight: bold;
+    font-family: Nyala, sans-serif;
+  }
+
+  @media (max-width: 767px) {
+    .content-section {
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    .content {
+      padding: 20px;
+      margin: 10px;
+    }
+  }
+
+  .col-sm-6 {
+    width: 50%;
+    float: left;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  @page {
+    margin-left: 3mm;
+    margin-right: 3mm;
+    margin-top: 3mm;
+    margin-bottom: 3mm;
+  }
+</style>
+
+
+
+</head>
+<body>
+  <div class="page">
+    
+    <div class="header"><span style="text-decoration: underline;">Prakash Caterers®</span><br>
+    <span style="font-size: 12px">“No Compromise With Health”</span></div>
+
+    <div class="content">
+      <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6">
+          <h2>Event Details</h2>
+          <p><strong>Name:</strong> [Your Name]</p>
+          <p><strong>Mobile:</strong> [Your Mobile Number]</p>
+          <p><strong>Food Type:</strong> LUNCH</p>
+          <p><strong>Food Note:</strong> [Any specific notes about dietary preferences]</p>
+        </div>
+        <div class="col-sm-6">
+          <br>
+          <p><strong>Venue:</strong> [Event Venue]</p>
+          <p><strong>Event Date:</strong> [Event Date]</p>
+          <p><strong>Event Time:</strong> [Event Time]</p>
+          <p><strong>No. of Persons:</strong> [Number of Guests]</p>
+          <p><strong>Extra Message:</strong> [Any additional message or special instructions]</p>
+        </div>
+      </div>
+    </div>
+
+      <div class="content-section">
+      <h2>ITEMS:</h2>
+      <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6">
+          <ul class="">
+        <li class="list-group-item"><strong>Colourful WELCOME DRINKS:</strong>
+          <ul>
+            <li>Strawberry Orange Twister</li>
+            <li>Red Velvet</li>
+          </ul>
+        </li>
+
+        
+      </ul>
+        </div>
+        <div class="col-sm-6">
+          <ul class="">
+        <li class="list-group-item"><strong>Colourful WELCOME DRINKS:</strong>
+          <ul>
+            <li>Strawberry Orange Twister</li>
+            <li>Red Velvet</li>
+          </ul>
+        </li>
+
+        
+      </ul>
+        </div>
+        <div class="col-sm-6">
+          <ul class="">
+        <li class="list-group-item"><strong>Colourful WELCOME DRINKS:</strong>
+          <ul>
+            <li>Strawberry Orange Twister</li>
+            <li>Red Velvet</li>
+          </ul>
+        </li>
+
+        
+      </ul>
+        </div>
+        <div class="col-sm-6">
+          <ul class="">
+        <li class="list-group-item"><strong>Colourful WELCOME DRINKS:</strong>
+          <ul>
+            <li>Strawberry Orange Twister</li>
+            <li>Red Velvet</li>
+          </ul>
+        </li>
+
+        
+      </ul>
+        </div>
+        <div class="col-sm-6">
+          <ul class="">
+        <li class="list-group-item"><strong>Colourful WELCOME DRINKS:</strong>
+          <ul>
+            <li>Strawberry Orange Twister</li>
+            <li>Red Velvet</li>
+          </ul>
+        </li>
+
+        
+      </ul>
+        </div>
+        <div class="col-sm-6">
+          <ul class="">
+        
+
+        <li class="list-group-item"><strong>Tasty STARTER:</strong>
+          <ul>
+            <li>Collegian Kachori</li>
+            <li>Veg. Kebab Tikki</li>
+          </ul>
+        </li>
+
+        
+      </ul>
+        </div>
+        <div class="col-sm-6">
+          <ul class="">
+        
+        <li class="list-group-item"><strong>Healthy SALAD BAR:</strong>
+          <ul>
+            <li>Extra Charges (Papad Potli/Papad Lehthi/Papad Churi/Papad Luva)</li>
+            <li>Hot Salad</li>
+            <li>Bengali Kachumber</li>
+            <li>Gol Keri Aachar</li>
+          </ul>
+        </li>
+      </ul>
+        </div>
+        <div class="col-sm-6">
+          <ul class="">
+        
+        <li class="list-group-item"><strong>Healthy SALAD BAR:</strong>
+          <ul>
+            <li>Extra Charges (Papad Potli/Papad Lehthi/Papad Churi/Papad Luva)</li>
+            <li>Hot Salad</li>
+            <li>Bengali Kachumber</li>
+            <li>Gol Keri Aachar</li>
+          </ul>
+        </li>
+      </ul>
+        </div>
+        <div class="col-sm-6">
+          <ul class="">
+        
+        <li class="list-group-item"><strong>Healthy SALAD BAR:</strong>
+          <ul>
+            <li>Extra Charges (Papad Potli/Papad Lehthi/Papad Churi/Papad Luva)</li>
+            <li>Hot Salad</li>
+            <li>Bengali Kachumber</li>
+            <li>Gol Keri Aachar</li>
+          </ul>
+        </li>
+      </ul>
+        </div>
+        <div class="col-sm-6">
+          <ul class="">
+        
+        <li class="list-group-item"><strong>Healthy SALAD BAR:</strong>
+          <ul>
+            <li>Extra Charges (Papad Potli/Papad Lehthi/Papad Churi/Papad Luva)</li>
+            <li>Hot Salad</li>
+            <li>Bengali Kachumber</li>
+            <li>Gol Keri Aachar</li>
+          </ul>
+        </li>
+      </ul>
+        </div>
+        <div class="col-sm-6">
+          <ul class="">
+        
+        <li class="list-group-item"><strong>Healthy SALAD BAR:</strong>
+          <ul>
+            <li>Extra Charges (Papad Potli/Papad Lehthi/Papad Churi/Papad Luva)</li>
+            <li>Hot Salad</li>
+            <li>Bengali Kachumber</li>
+            <li>Gol Keri Aachar</li>
+          </ul>
+        </li>
+      </ul>
+        </div>
+        <div class="col-sm-6">
+          <ul class="">
+        
+        <li class="list-group-item"><strong>Healthy SALAD BAR:</strong>
+          <ul>
+            <li>Extra Charges (Papad Potli/Papad Lehthi/Papad Churi/Papad Luva)</li>
+            <li>Hot Salad</li>
+            <li>Bengali Kachumber</li>
+            <li>Gol Keri Aachar</li>
+          </ul>
+        </li>
+      </ul>
+        </div>
+        <div class="col-sm-6">
+          <ul class="">
+        
+        <li class="list-group-item"><strong>Healthy SALAD BAR:</strong>
+          <ul>
+            <li>Extra Charges (Papad Potli/Papad Lehthi/Papad Churi/Papad Luva)</li>
+            <li>Hot Salad</li>
+            <li>Bengali Kachumber</li>
+            <li>Gol Keri Aachar</li>
+          </ul>
+        </li>
+      </ul>
+        </div>
+        <div class="col-sm-6">
+          <ul class="">
+        
+        <li class="list-group-item"><strong>Healthy SALAD BAR:</strong>
+          <ul>
+            <li>Extra Charges (Papad Potli/Papad Lehthi/Papad Churi/Papad Luva)</li>
+            <li>Hot Salad</li>
+            <li>Bengali Kachumber</li>
+            <li>Gol Keri Aachar</li>
+          </ul>
+        </li>
+      </ul>
+        </div>
+      </div>
+    </div>
+      
+    </div>
+    <img src="http://localhost/prakashcaterer/img/logo/watermark.png" alt="Watermark" class="watermark">
+    </div>
+
+    <div class="footer">
+      Hebbal, Sanjaynagar Post, Karnataka, Bengaluru-560094<br>
+      MB. 8050551406, 9980960245 | PH. 080-23419505
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+   body {
+  text-align: justify;
+  margin-bottom: 80px;
+}
+
+  .content {
+    flex: 1;
+    padding-bottom: 60px; /* Set padding at the bottom to leave space for the footer */
+    position: relative; /* Enable scrolling if content exceeds viewport height */
+    overflow: visible;
+  }
+
+  .page-break {
+    page-break-inside: avoid; /* Prevent content from breaking inside */
+    break-inside: avoid; /* Additional property for browser compatibility */
+  }
+
+  .footer {
+    background-color: #92278F;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 999;
+    /*margin-top: 20px;*/
+  }
+
+  .footer-inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-button {
+    background-color: #fff;
+    border: none;
+    color: #92278F;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 10px;
+  }
+  @media print {
+    .footer {
+      position: relative; /* Remove fixed positioning for printing */
+    }
+  }
+   
+</style>
+
+</head>
+<body>
+
+<footer style="background-color:#92278F; padding-bottom: 0px;" class="footer">
+    <div style="display: flex; justify-content: space-between;">
+        <div class="footer-inner">
+            <div style="float: left; margin-right: 10px; overflow: hidden;">
+                <p style="margin: 10px;">
+                    <b style="color:#fff; white-space: nowrap; margin-right: 10px;">Start Using bildify Now</b>
+                    <a href="https://play.google.com/store/apps/details?id=in.bildify" class="footer-button" style="border-radius: 10px;" target="_blank">
+                        <b>Install</b>
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div style="float: right; margin-right: 20px; overflow: hidden;">
+            <p><b style="color:#fff;">www.bildify.in</b></p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
+
+
+
+
